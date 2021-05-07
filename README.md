@@ -4,12 +4,15 @@ React Sports Roster
 
 ### Overview of the project:
 
+An application in which an authorized user can perform full CRUD on their team roster. 
+
+
 ### Link to Figma Board:
 Not applicable for this project.
 
 ### Link to the deployed project:
 
-
+https://hr-sports-roster-react.netlify.app/players
 
 ### Description of the user:
 
@@ -54,7 +57,13 @@ SCSS, JS, REACT, REACTSTRAP, FIREBASE
 
 ### Screenshots of project:
 
+<img width="1440" alt="Screen Shot 2021-05-07 at 10 49 48 AM" src="https://user-images.githubusercontent.com/76716670/117468038-49647000-af22-11eb-8855-e3d057be72ae.png">
 
+<img width="1440" alt="Screen Shot 2021-05-07 at 10 50 14 AM" src="https://user-images.githubusercontent.com/76716670/117468107-5b461300-af22-11eb-8302-c353eaea4ad5.png">
+
+<img width="1440" alt="Screen Shot 2021-05-07 at 10 50 31 AM" src="https://user-images.githubusercontent.com/76716670/117468116-5d0fd680-af22-11eb-94b8-ca638942d365.png">
+
+<img width="1440" alt="Screen Shot 2021-05-07 at 10 50 46 AM" src="https://user-images.githubusercontent.com/76716670/117468124-5ed99a00-af22-11eb-9527-085695e4772f.png">
 
 
 ### List of contributors and links to GH profiles:
