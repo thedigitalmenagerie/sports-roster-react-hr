@@ -11,7 +11,7 @@ import {
   NavItem,
 } from 'reactstrap';
 import { signInUser, signOutUser } from '../helpers/auth';
-import './NavBar.scss';
+import './componentsStyles/NavBar.scss';
 
 const NavBar = ({ user }) => {
   const [isOpen, setIsOpen] = useState(false);
