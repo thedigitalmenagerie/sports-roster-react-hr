@@ -7,13 +7,9 @@ React Sports Roster
 ### Link to Figma Board:
 Not applicable for this project.
 
-### ERD for this project:
-
-![ERD](./images/react_roster_erd.png)
-
 ### Link to the deployed project:
 
-https://app.netlify.com/sites/hr-firebase-pinterest/settings/domain
+
 
 ### Description of the user:
 
