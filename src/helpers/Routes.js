@@ -20,21 +20,14 @@ export default function Routes({ user, players, setPlayers }) {
   return (
     <div>
       <Switch>
-      {
-                user !== null
-                && <Switch>
-                  {
-                    user
-                      ? <Route exact path='/' component={Home}/>
-                      : <PrivateRoute exact path='/' component={AuthScreen}/>
-                        <PrivateRoute
-                          exact path='/players'
-                          user={user}
-                          component={() => <Players user={user} players={players}
-                          setPlayers={setPlayers} />}
-                        />
-                  }
-
+        <Route
+          exact path='/'
+          component={() => <AuthScreen />}
+        />
+        <PrivateRoute
+          path='/players'
+          user={user}
+          component={() => <Players user={user} players={players} setPlayers={setPlayers} />} />
       </Switch>
     </div>
   );

@@ -15,7 +15,7 @@ function Players({ user, players, setPlayers }) {
   return (
     <main id="teamMainContainer">
     <section className="header">
-    <header className="h1">Team Page </header>
+    <header className="h1">Sandlot Players&apos; Page</header>
     { !showAddPlayerBtn
       ? <Button id="cardButton1" className="addPlayerToggle" onClick={handleClick}>Add Player</Button>
       : <div>
