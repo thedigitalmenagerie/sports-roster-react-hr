@@ -1,5 +1,5 @@
 import React from 'react';
-import './authScreen.scss';
+import './viewsStyles/authScreen.scss';
 
 export default function AuthScreen() {
   return (

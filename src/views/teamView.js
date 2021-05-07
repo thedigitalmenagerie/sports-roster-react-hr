@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Button } from 'reactstrap';
 import PlayerCard from '../components/PlayerCards';
 import PlayerForm from '../playerForm';
-import './teamView.scss';
+import './viewsStyles/teamView.scss';
 
 function Players({ user, players, setPlayers }) {
   const [showAddPlayerBtn, setShowAddPlayerBtn] = useState(false);
@@ -13,8 +13,8 @@ function Players({ user, players, setPlayers }) {
   };
 
   return (
-    <main id="teamMainContainer">
-    <section className="header">
+    <div id="teamMainContainer">
+    <div className="header">
     <header className="h1">Sandlot Players&apos; Page</header>
     { !showAddPlayerBtn
       ? <Button id="cardButton1" className="addPlayerToggle" onClick={handleClick}>Add Player</Button>
@@ -23,7 +23,7 @@ function Players({ user, players, setPlayers }) {
         <PlayerForm setPlayers={setPlayers} user={user}/>
       </div>
       }
-    </section>
+    </div>
     <section className="container">
     <div className="cardHolder">
       {players.map((playerInfo) => (
@@ -40,7 +40,7 @@ function Players({ user, players, setPlayers }) {
       ))}
     </div>
     </section>
-  </main>
+  </div>
 
   );
 }

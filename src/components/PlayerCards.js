@@ -9,9 +9,8 @@ import {
 import PropTypes from 'prop-types';
 import { DeletePlayer } from '../helpers/data/playersData';
 import PlayerForm from '../playerForm';
-import '../views/teamView.scss';
+import '../views/viewsStyles/teamView.scss';
 import '../App/App.scss';
-import './PlayerCard.scss';
 
 const PlayerCard = ({
   uid,

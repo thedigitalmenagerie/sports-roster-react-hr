@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { AddPlayer, UpdatePlayer } from './helpers/data/playersData';
-import './playerForm.scss';
+import './styles/playerForm.scss';
 
 const PlayerForm = ({
   formTitle,
