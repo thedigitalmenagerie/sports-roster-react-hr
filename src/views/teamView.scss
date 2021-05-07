@@ -1,0 +1,44 @@
+.cardHolder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+body .card {
+  margin: 10px;
+  max-width: 18em;
+  max-height: fit-content;
+  background-color: #AD9F9F;
+  align-items: center;
+}
+
+#cardButton1 {
+  width: 9em;
+  background-color: #704632;
+}
+  
+#cardButton2 {
+    width: 9em;
+    background-color: #5C424C;
+}
+
+#teamMainContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.addPlayerToggle {
+  background-color: #AD9F9F;
+}

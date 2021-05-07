@@ -1,0 +1,22 @@
+#addPlayerForm {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C424C;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  input {
+    border-radius: 5px;
+    margin: 10px;
+  }
+  #submitButton {
+    border-radius: 5px;
+    color: #5C424C;
+    background-color: #AD9F9F;
+    margin: 10px;
+  }
+}
